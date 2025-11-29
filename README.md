@@ -1,17 +1,22 @@
-# React + Vite
+# Password Generator 🔐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and efficient web application built with React to generate strong, random passwords based on user preferences. This tool helps users create secure passwords with customizable length and character options.
 
-Currently, two official plugins are available:
+![Project Screenshot]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- **Customizable Length:** Use the slider to set the password length (e.g., 6 to 100 characters).
+- **Character Options:**
+  - Toggle **Numbers** to include digits (0-9).
+  - Toggle **Characters** to include special symbols (!@#$%^&\*).
+- **One-Click Copy:** copy the generated password to your clipboard instantly with the "Copy" button.
+- **Instant Generation:** The password updates automatically as you change the settings (using `useEffect` hook).
+- **Responsive Design:** Clean, dark-themed UI that works on desktop and mobile.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Password-Generator-react
+- **Library:** [React.js](https://react.dev/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** CSS / Tailwind CSS (Update this based on what you actually used)
+- **Language:** JavaScript/JSX
