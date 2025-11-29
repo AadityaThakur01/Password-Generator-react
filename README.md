@@ -2,7 +2,8 @@
 
 A simple and efficient web application built with React to generate strong, random passwords based on user preferences. This tool helps users create secure passwords with customizable length and character options.
 
-![Uploading Screenshot 2025-11-30 at 12.38.11 AM.png…]()
+
+<img width="1440" height="900" alt="Screenshot 2025-11-30 at 12 38 11 AM" src="https://github.com/user-attachments/assets/25ac62c1-bee1-4afb-b5d8-6aa4ed95f1cb" />
 
 
 ## ✨ Features
